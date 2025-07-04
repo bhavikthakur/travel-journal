@@ -6,6 +6,8 @@
     gap: 1rem;
     padding: 1.5em 0;
     margin-bottom: 2em;
+    position: sticky;
+    top: 0;
 }
 
 .logo-text {
