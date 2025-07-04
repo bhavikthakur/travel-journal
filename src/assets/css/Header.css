@@ -1,0 +1,19 @@
+.header {
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5em 0;
+    margin-bottom: 2em;
+}
+
+.logo-text {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.logo {
+    width: 30px;
+    object-fit: cover;
+}

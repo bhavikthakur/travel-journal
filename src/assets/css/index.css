@@ -1,0 +1,15 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  color: hsl(250, 18%, 19%);
+  padding-bottom: 2em;
+  border-bottom: 20px solid #F55A5A;
+}

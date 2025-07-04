@@ -1,0 +1,142 @@
+.hero {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+
+.img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 0.25em;
+}
+
+
+.country-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+
+}
+
+.marker {
+    width: 12px;
+}
+
+.country {
+    margin-left: 0.35em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.google-map {
+    align-self: flex-end;
+    margin-left: 0.85em;
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    color: #918E9B;
+    text-decoration: 1px solid underline;
+    transition: 0.15s color ease-in, 0.15s cursor ease-in;
+
+}
+
+.google-map:hover,
+.google-map:focus {
+    color: #2B283A;
+    cursor: pointer;
+}
+
+
+.title {
+    color: #2B283A;
+    margin-bottom: 1em;
+}
+
+
+.entries {
+    display: flex;
+    flex-direction: column;
+}
+
+.dates {
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-bottom: 0.5em;
+}
+
+.text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+
+
+@media (width < 500px) {
+
+
+    .hero {
+        gap: 1rem;
+    }
+
+    .card:last-child {
+        border-bottom: none;
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 2em;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+
+
+    .country-detail {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .google-map {
+        align-self: flex-start;
+    }
+
+    .google-map,
+    .country {
+        margin: 0;
+    }
+
+}
+
+
+@media (width > 800px) {
+
+    .hero {
+        padding: 1.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .card {
+        max-width: 800px;
+        width: 90%;
+        gap: 2rem;
+
+    }
+
+
+
+}
